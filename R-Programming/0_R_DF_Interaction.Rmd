@@ -1,0 +1,15 @@
+---
+title: "R_DF_Interaction"
+author: "Jochen Hollich"
+date: "20 3 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Intro
+Dieses Rmd dient der Dokumentaion von DataFrame Interactions in R. der offizielle [Link](https://stat.ethz.ch/R-manual/R-devel/library/base/html/data.frame.html)
+
+hier meine [Notizen zu R](https://github.com/JHC90/R-Studio-Markdown-Programming) in meinem Repo
