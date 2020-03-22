@@ -1,0 +1,33 @@
+---
+title: "EDA_Lagemasse"
+author: "Jochen Hollich"
+date: "20 3 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+[Link zur Theorie](https://github.com/JHC90/Basic-DataScience-Skills/wiki/EDA_0_Lagemase)
+
+# Einlesen DF
+```{r}
+state <- read.csv(file="./data/state.csv")
+```
+# mean, trimmed mean, and median for the population
+```{r}
+mean(state[["Population"]])
+mean(state[["Population"]], trim = 0.1)
+median(state[["Population"]])
+```
+
+
+
+
+# weigthed mean & weigthed Median
+```{r}
+weighted.mean(state[["Murder.Rate"]], w=state[["Population"]])
+# install.packages("package")
+library("matrixStats")
+weightedMedian(state[["Murder.Rate"]], w=state[["Population"]])
+```

@@ -1,0 +1,16 @@
+---
+title: "0_ReadData"
+author: "Jochen Hollich"
+date: "20 3 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Einlesen DF
+
+```{r}
+state <- read.csv(file="./data/state.csv")
+```
