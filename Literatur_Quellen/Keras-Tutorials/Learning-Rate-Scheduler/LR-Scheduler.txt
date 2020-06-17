@@ -1,0 +1,3 @@
+https://www.pyimagesearch.com/2019/07/29/cyclical-learning-rates-with-keras-and-deep-learning/
+
+https://www.pyimagesearch.com/2019/07/22/keras-learning-rate-schedules-and-decay/

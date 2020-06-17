@@ -1,1 +1,0 @@
-{"ongoing_trials": {}, "hyperparameters": {"space": [{"class_name": "Choice", "config": {"name": "optimizer", "default": "adam", "values": ["adam", "sgd", "rmsprop"], "ordered": false}}], "values": {"optimizer": "adam"}}, "seed": 42, "seed_state": 45, "tried_so_far": ["1d00d5e453c5aed46d09e43ead848813", "e335baffb099849e7ae4989f5d242497", "4d7f7e946808fa31e00a496c3ea4dc24"]}
